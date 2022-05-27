@@ -1,6 +1,6 @@
 ![Logo](img/ucol-logo.jpg)
 
-# Práctica 19: API Parte 2
+# Práctica 20: API Parte 3
 
 > Segunda Parcial
 
@@ -19,7 +19,7 @@ En las prácticas anteriores hemos abordado tópicos que nos van a ayudar a cons
 
 En esta práctica, utilizaremos una parte del código de la práctica 16, práctica 17 y práctica 18.
 
-> ENTREGA: DOMINGO 22 DE MAYO DEL 2022
+> ENTREGA: VIERNES 26 DE MAYO DEL 2022
 
 ## EXPLICACIÓN DEL PROCESO
 
@@ -55,7 +55,7 @@ En esta práctica, utilizaremos una parte del código de la práctica 16, práct
 
 16. En el archivo person.js de routes se crea un get en el cual recuperamos todos los documentos que estan en el mongodb contenidos en la coleccion y se regresan al html como un objeto json para eso se ocupa:
 
-17. Inyectar express,generar una instancia, inyectar una depencdencia de mongoose y inyectar una dependencia para el model de person
+17. Inyectar express, generar una instancia, inyectar una depencdencia de mongoose y inyectar una dependencia para el model de person
 
 18. Se exporta el router
 
@@ -65,7 +65,9 @@ En esta práctica, utilizaremos una parte del código de la práctica 16, práct
 
 21. En mongodb se crea un documento para que se pueda mandar llamar un objeto json
 
-22. Ahora se ejecuta el comando "npx nodemon server" y acccede a http://localhost:3000/person
+22. El objeto json se iterara para que se pueda acceder a las llaves y ingrese la informacion a la tabla separandola por variables
+
+23. Ahora se ejecuta el comando "npx nodemon server" y acccede a http://localhost:3000/person
 
 ## RECURSOS
 
